@@ -24,7 +24,6 @@
             echo "A soma entre $numero e $numero2 é igual a $soma.";
             var_dump($soma);
         }
-        
     }
 ?>
 </body>
