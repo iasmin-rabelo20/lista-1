@@ -19,13 +19,13 @@
     if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         if (isset($_POST['cv'])) {
             $vogais = ['a', 'e', 'i', 'o', 'u'];
-            $palavra = $_POST['palavra']; 
+            $palavra = strtolower($_POST['palavra']); 
             foreach ($vogais as $vogal) {
                 $contagem[$vogal] = substr_count($palavra, $vogal);
             }   
             echo "A palavra '$palavra' contém as seguintes vogais:<br>";
             foreach ($contagem as $vogal => $quantidade) {
-                echo "$contagem vogal '$vogal': $quantidade vezes<br>";
+                echo "Vogal '$vogal': $quantidade vezes<br>";
         }
     }
 }
