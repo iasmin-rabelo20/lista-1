@@ -19,9 +19,8 @@
             $numero2 = $_POST['numero2'];
                 
             $soma = $numero + $numero2;
-    
-            echo "A soma entre $numero e $numero2 é igual a $soma.";
         }
+        echo "A soma entre $numero e $numero2 é igual a $soma.";
     }
 ?>
 </body>
