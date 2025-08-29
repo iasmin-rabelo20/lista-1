@@ -14,7 +14,7 @@
         <input type="number" id="numero2" name="numero2" required>
         <button type="submit" name="dns">Verificar</button>
     </form>
-    
+
 <?php
     if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         if (isset($_POST['dns'])) {
@@ -22,6 +22,7 @@
             $numero2 = $_POST['numero2'];
             $soma = $numero + $numero2;
             echo "A soma entre $numero e $numero2 é igual a $soma.";
+            var_dump($soma);
         }
         
     }
