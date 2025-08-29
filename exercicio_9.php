@@ -6,6 +6,12 @@
     <title>Exercício 9 -  Dois números e a soma.</title>
 </head>
 <body>
+
+ <form method="POST" action="">
+        <lable for="numero">Digite um número:</lable>
+        <input type="number" id="numero" name="numero" required>
+        <button type="submit" name="NP">Verificar</button>
+    </form>
 <?php
     if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         if (isset($_POST['NP'])) {
