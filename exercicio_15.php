@@ -8,9 +8,9 @@
 <body>
     <form method="POST" action="">
         <label for="numero">Digite o seu peso:</label>
-        <input type="number" name="peso" required><br><br>
+        <input type="number" name="peso" required>
         <label for="numero">Digite a sua altura:</label>
-        <input type="number" name="altura" required><br><br>
+        <input type="number" name="altura" required>
         <button type="submit" name="verificar">Enviar</button>
 
     </form>

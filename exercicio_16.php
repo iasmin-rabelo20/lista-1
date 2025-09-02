@@ -8,9 +8,9 @@
 <body>
     <form method="POST" action="">
         <label for="numero">Digite o seu nome:</label>
-        <input type="text" name="nome" required><br><br>
+        <input type="text" name="nome" required>
         <label for="numero">Digite a sua idade:</label>
-        <input type="number" name="numero" required><br><br>
+        <input type="number" name="numero" required>
         <button type="submit" name="verificar">Enviar</button>
     </form>
 
