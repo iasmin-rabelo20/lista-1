@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercício 16 - Receber nome e idade e informar se a pessoa pode votar.</title>
+    <title>Exercício 16 - Receber voto</title>
 </head>
 <body>
     <form method="POST" action="">
